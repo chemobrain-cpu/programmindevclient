@@ -27,6 +27,9 @@ let calculateRemainingTime = (expiryDate) => {
 
   return timeLeft
 }
+
+
+
 let retrievedStoredToken = () => {
   let tokenFromStorage = localStorage.getItem('token')
 
@@ -199,11 +202,8 @@ export const getUsers = (data) => {
         bool: false,
         message: "network error"
       }
-
     }
-
   }
-
 }
 
 
