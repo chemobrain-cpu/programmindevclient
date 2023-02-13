@@ -95,7 +95,7 @@ let FormModal = ({clearHandler,handleRegisterHandler}) => {
                 </span>
 
             </div>
-            <h1>LOGO</h1>
+            <h1>P.dev</h1>
             <p>Please contact administrator before registering for a course</p>
             <form onSubmit={registerHandler}>
                 <div className='form-card'>

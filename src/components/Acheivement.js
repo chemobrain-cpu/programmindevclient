@@ -10,7 +10,7 @@ function AcheivementSection() {
 
             <div className='achievement-container'>
                 <h1 className='heading'>School Achievements</h1>
-                <p className='text'>Nullam leo ligula,dictum id eleifend interdum,Malesuada vulputate magna</p>
+                <p className='text'>We've taught over 5000++ student on how to build website and apps to market their brand</p>
 
                 <div className='numbers-container'>
 

@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import Loader from '../../components/Loader';
 import FormModal from '../../components/FormModal';
 import CourseModal from '../../components/CourseModal';
+import AdvertModal from '../../components/AdvertModel';
 import ModalError from '../../components/ModalError.js';
 import { useDispatch } from "react-redux";
 
@@ -29,6 +30,11 @@ function Home() {
     let [isRegister, setIsRegister] = useState(false)
     let [isOpenCourse, setIsOpenCourse] = useState(false)
     let [openCourseContent, setOpenCourseContent] = useState('')
+
+
+    let [openAdvert, setOpenAdvert] = useState(true)
+
+
     let [isError, setIsError] = useState(false)
     let [errorContent, setErrorContent] = useState('')
     let dispatch = useDispatch()
@@ -98,11 +104,16 @@ function Home() {
         setIsOpenCourse(true)
     }
 
+    let clearAdvertModal = ()=>{
+        setOpenAdvert(false)
+    }
+
 
 
     return (
         <>
             {isRegister ? <FormModal clearHandler={clearHandler} handleRegisterHandler={handleRegisterHandler} /> : <></>}
+            {openAdvert?<AdvertModal clearAdvertModal={clearAdvertModal}/>:<></>}
 
             {isOpenCourse ? <CourseModal courseHandler={courseHandler} content={openCourseContent} clearHandler={clearHandler} /> : <></>}
 
