@@ -9,7 +9,7 @@ let AdvertModal = ({clearAdvertModal}) => {
         <div className='modal_input_card'>
             
             <p>
-            Create a website or an app to start making noney in 2023.contact us or whatsapp on 09071991647 to learn how ! </p>
+            Create a website or an app to start making money in 2023. Contact us or whatsapp on 09071991647 to learn how. Its free! Hurry! </p>
 
             <button onClick={clearAdvertModal}>Got it !</button>
            
