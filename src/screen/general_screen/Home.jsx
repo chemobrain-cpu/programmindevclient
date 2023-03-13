@@ -129,7 +129,7 @@ function Home() {
 
             <Action />
 
-            <TopCourseSection openCourseHandler={openCourseHandler} />
+            
 
             <LearningSection />
 
@@ -138,8 +138,6 @@ function Home() {
             <Acheivement />
 
             <Testimonial />
-
-            <DownloadSection />
 
             <CallToAction />
 

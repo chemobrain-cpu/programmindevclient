@@ -27,18 +27,12 @@ function CarouselCard({ headText }) {
                     rootMargin="20%"
                     className='h1'
                 >
-                   we're creating technical awareness accross africa
+                   Learn to code amazing apps and websites
                 </AnimatedText>
 
-                <p>Programming.dev strives to bring technolog0cal knowledge into every doorstep</p>
+                <p>Skill up now to remain relevant</p>
 
-                <div className='buttons-container'>
-                    <button>
-                        Start learning
-                    </button>
-
-                    
-                </div>
+                
 
               
             

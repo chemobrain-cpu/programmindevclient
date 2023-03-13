@@ -22,7 +22,7 @@
 }
 
 .acheivement-card span {
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .acheivement-card .numbers-container {
@@ -35,7 +35,7 @@
 }
 
 .acheivement-card .numbers-container h2 {
-    font-size: 30px
+    font-size: 25px
 }
 
 @media screen and (max-width: 1024px){

@@ -14,10 +14,6 @@ function Work() {
                     <TopicHead headText='WHAT WE' colorText='DO' headColor='#fff' />
 
                 </div>
-                <div className='right'>
-                    <button>View all</button>
-
-                </div>
 
 
             </div>

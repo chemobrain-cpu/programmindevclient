@@ -107,7 +107,7 @@ function Footer() {
                 <div className='footer-contact' data-aos="fade-up">
                     <h1 className='footer-heading'>CONTACT</h1>
 
-                    <p>No 133 ughelli,Delta state
+                    <p>warri delta state
                     </p>
 
                     <p>+2349071991647</p>

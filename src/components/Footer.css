@@ -2,9 +2,11 @@
 
 .footer-section {
     padding-top: 30px;
-    padding-right: 5%;
-    padding-left: 5%;
-    background-color:rgb(240,240,240)
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:rgb(240,240,240);
+    padding-right: 2%;
+    padding-left: 2%;
 
 }
 
@@ -163,8 +165,9 @@
 
     .footer-section {
         padding-top: 30px;
-        padding-right: 2%;
-        padding-left: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin:0px
     }
 
 

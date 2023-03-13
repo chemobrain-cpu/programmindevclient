@@ -24,7 +24,7 @@ function AcheivementCard({icon,no,text}) {
 
             </div>
             <div className='numbers-container'>
-                <h2><NumberCounter end={`${no}`} delay={1000}/></h2>
+                <h2><NumberCounter end={`${no}`} delay={2000}/></h2>
                 <p>{text}</p>
             </div>
 

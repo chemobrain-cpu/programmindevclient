@@ -1,7 +1,8 @@
 .work{
     background-color: rgb(72, 63, 148);
     padding-top:50px;
-    padding-bottom:80px;
+    padding-bottom:0px;
+    margin-bottom: 60px;
 }
 
 .work .work-head{

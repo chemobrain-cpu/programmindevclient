@@ -35,9 +35,9 @@ function Testimonial() {
                         <p className='testimony'>
                             It is no exaggeration to say this Programming.dev experience was transformative-both professionally and personally.This workshop will long remain a high point of my life.
                         </p>
-                        <h1 className='testimony-author'>Linda Green</h1>
+                        <h1 className='testimony-author'>Princess Royal</h1>
 
-                        <p className='author-position'>Product Manager,Apple Inc
+                        <p className='author-position'>Business owner
                         </p>
 
                     </div>

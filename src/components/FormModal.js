@@ -87,7 +87,7 @@ let FormModal = ({clearHandler,handleRegisterHandler}) => {
 
     return <div className='form_modal_screen'>
 
-        <div className='modal_input_card'>
+        <div className='modal_input_cards'>
             <div className='cancel'>
 
                 <span className='material-icons' onClick={handleClearHandler}>

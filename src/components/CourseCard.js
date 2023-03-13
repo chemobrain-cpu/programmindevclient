@@ -47,6 +47,9 @@ function CourseCard({title,name,about,price,detailHandler,imgUrl}) {
 
             </div>
 
+            
+            <button>learn more</button>
+
         </div>
     );
 }

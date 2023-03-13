@@ -1,7 +1,7 @@
 import React from 'react';
 import './TopCourseSection.css';
 import CourseCard from './CourseCard';
-import {topCourses} from '../data'
+//import {topCourses} from '../data'
 
 function TopCourse({openCourseHandler}) {
 
@@ -11,8 +11,7 @@ function TopCourse({openCourseHandler}) {
 
             <div className='course-container'>
 
-                {topCourses.map(data=><CourseCard {...data}
-                detailHandler={openCourseHandler}/>)}
+                
 
             </div>
 

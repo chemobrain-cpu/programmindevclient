@@ -23,7 +23,6 @@
     width:450px;
     z-index: 1000;
     border-radius:5px;
-    height:70vh;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,0.04);
     background-color: #fff;
     overflow-y: scroll;

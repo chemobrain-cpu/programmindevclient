@@ -1,5 +1,5 @@
 .carouselCard {
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     width: 100%
@@ -13,18 +13,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 180px;
-    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 500;
     color: #fff;
-    padding-right: 5%;
-    padding-left: 5%;
 }
 
 .carouselCard h1 {
     font-size: 40px;
     color: #fff;
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .carouselCard p {
@@ -67,10 +65,10 @@
 
     /*  carousel style */
     .carouselCard {
-        height: 85vh;
+        height: 60vh;
     }
     .carouselContent {
-        padding-top: 150px;
+        padding-top: 50px;
     }
     
 

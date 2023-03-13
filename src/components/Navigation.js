@@ -17,6 +17,7 @@ function Navigation({clearHandler}) {
            navigation.style.backgroundColor = '#fff'
             button.style.backgroundColor = 'rgb(72, 63, 148)'
             button.style.color = '#fff'
+            button.style.border = 'none'
 
         } else {
             navigation.style.backgroundColor = 'transparent'

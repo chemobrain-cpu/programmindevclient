@@ -6,7 +6,7 @@ import {recentCourses} from '../data'
 function RecentCourseSection({openCourseHandler}) {
     return (
         <div className='recent-course-section'>
-            <h1 className='heading'>Recent courses</h1>
+            <h1 className='heading'>Our courses</h1>
 
             <div className='course-container'>
             {recentCourses.map(data=><CourseCard {...data}
