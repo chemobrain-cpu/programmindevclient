@@ -19,7 +19,7 @@ function Footer() {
 
                 <div className='footer-about' data-aos="fade-up">
                     <h1 className='footer-heading'>ABOUT</h1>
-                    <p className='footer-about'><span>Programming.dev</span> is an online learning platform designed for youth and teenages to incrase technological awareness accross the african continent.</p>
+                    <p className='footer-about'><span>Programming.dev</span> is an online and offline learning platform designed for youth and teenages to incrase technological awareness accross the african continent.</p>
 
                 </div>
 
