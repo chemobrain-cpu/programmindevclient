@@ -27,7 +27,7 @@ export const actionData = [
     },
     {
 
-        title: 'WE BUILD ANDROID AND IOS',
+        title: 'WE BUILD APPS',
         content: 'wether you are an entreprenuer who wants to convert your idea into a mobile app,we can help you with the process',
         imgUrl:'url(../../code8.jpeg)'
     },
