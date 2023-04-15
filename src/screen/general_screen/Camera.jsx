@@ -1,39 +1,26 @@
-import React, { useCallback, useRef, useState } from "react";
-import Webcam from "react-webcam";
-import  './camera.css'
-import { learningSectionData } from './../../data';
+import React, { useState } from "react";
+import Camera from 'react-html5-camera-photo';
+import 'react-html5-camera-photo/build/css/index.css';
 
 function WebcamImage() {
   const [img, setImg] = useState(null);
-  const webcamRef = useRef(null);
+  
 
-  const videoConstraints = {
-    width: 350,
-    height: 350,
-    facingMode: { exact: "environment" }
-  };
+  
 
-  const capture = useCallback(() => {
-    const imageSrc = webcamRef.current.getScreenshot();
-    alert(imageSrc)
-    setImg(imageSrc);
-  }, [webcamRef]);
+  function handleTakePhoto (dataUri) {
+    // Do stuff with the photo...
+    alert(dataUri)
+    setImg(dataUri);
+  }
 
   return (
     <div className="Container">
       {img === null ? (
         <>
-          <Webcam
-            audio={false}
-            mirrored={true}
-            height={300}
-            width={300}
-            ref={webcamRef}
-            screenshotFormat="image/jpeg"
-            videoConstraints={videoConstraints}
-          />
-          <button onClick={capture}>Capture photo</button>
-        </>
+          <Camera
+      onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
+    /></>
       ) : (
         <>
           <img src={img} alt="screenshot" />
