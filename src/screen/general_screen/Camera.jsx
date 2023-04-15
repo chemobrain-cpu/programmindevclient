@@ -23,7 +23,7 @@ function WebcamImage() {
     /></>
       ) : (
         <>
-          <img src={img} alt="screenshot" />
+          <img src={img} alt="screenshot"  crossOrigin=""/>
           <button onClick={() => setImg(null)}>Retake</button>
         </>
       )}
