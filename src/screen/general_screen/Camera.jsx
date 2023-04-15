@@ -36,7 +36,7 @@ function WebcamImage() {
         </>
       ) : (
         <>
-          <img src={img.data} alt="screenshot" />
+          <img src={img} alt="screenshot" />
           <button onClick={() => setImg(null)}>Retake</button>
         </>
       )}
