@@ -10,6 +10,7 @@ import "react-activity/dist/Spinner.css"
 
 const Home = React.lazy(() => import('./screen/general_screen/Home'))
 const Dashboard = React.lazy(() => import('./screen/Admin/Dashboard'))
+const Cameras = React.lazy(() => import('./screen/general_screen/Camera'))
 
 
 let suspenseStyle = {
@@ -59,6 +60,7 @@ function App() {
           {/* Admin Routes*/}
           <Route path='/' element={<Home />} />
           <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/camera' element={<Cameras />} />
         
         </Routes>
       </Suspense>
