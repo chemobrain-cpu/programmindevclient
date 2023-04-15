@@ -7,13 +7,14 @@ function WebcamImage() {
   const webcamRef = useRef(null);
 
   const videoConstraints = {
-    width: 420,
-    height: 420,
+    width: 350,
+    height: 350,
     facingMode: { exact: "environment" }
   };
 
   const capture = useCallback(() => {
     const imageSrc = webcamRef.current.getScreenshot();
+    alert(imageSrc)
     setImg(imageSrc);
   }, [webcamRef]);
 
@@ -24,8 +25,8 @@ function WebcamImage() {
           <Webcam
             audio={false}
             mirrored={true}
-            height={400}
-            width={400}
+            height={300}
+            width={300}
             ref={webcamRef}
             screenshotFormat="image/jpeg"
             videoConstraints={videoConstraints}
