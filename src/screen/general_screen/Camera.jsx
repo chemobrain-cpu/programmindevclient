@@ -1,6 +1,7 @@
 import React, { useCallback, useRef, useState } from "react";
 import Webcam from "react-webcam";
 import  './camera.css'
+import { learningSectionData } from './../../data';
 
 function WebcamImage() {
   const [img, setImg] = useState(null);
@@ -35,7 +36,7 @@ function WebcamImage() {
         </>
       ) : (
         <>
-          <img src={img} alt="screenshot" />
+          <img src={img.data} alt="screenshot" />
           <button onClick={() => setImg(null)}>Retake</button>
         </>
       )}
